@@ -1,0 +1,129 @@
+/* .header{
+    display: flex;
+    flex-direction: column;
+} */
+
+body{
+    margin: 0% 8%;
+    border-radius: 7px;  
+    font-family: Arial, Helvetica, sans-serif; 
+}
+/* .img{
+    width: 5%;
+} */
+.images{
+    width:70%;
+    border-radius: 7px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0% 25%;
+}
+.nav-bar li{
+    display:inline-block;
+    list-style-type: none;
+    padding: 8px 10px;
+}
+.nav-bar-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-bar-2 button{
+    border-radius: 7px;
+
+}
+.my-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -12%;
+}
+.brickhouse-image{
+    width: 58%;
+    margin-top: 20%;
+}
+.slide-line{
+    float: right;
+    margin-left: 40%;
+    margin-top: -44%;
+    /* margin-bottom: 18%; */
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: -9%;
+
+}
+.age-buttons{
+    margin-left: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.age-buttons button{
+    margin-left:  3%;
+}
+.my-button{
+    margin-left: 10%;
+}
+.series-images{
+    width: 12%;
+}
+.select-series{
+
+}
+.age{
+    margin-top: -28%;
+    margin-left: 10%;
+}
+.series-div img {
+    width: 30%;
+    border-radius: 7px;
+}
+.recently-viewed{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.recently-viewed img{
+    width: 32%;
+}
+.discounts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.discounts img{
+    width: 65%;
+    border-radius: 7px;
+}
+.discount-offer{
+    padding: 0px 12px;
+    background-color: #FFD600;
+}
+.new img{
+    width: 25%
+}
+.discount-footer{
+    border-radius: 7px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-div{
+    background-color: #26004C;
+    color: white;
+    padding: 2px 15px;
+    
+}
+.footer-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
