@@ -1,25 +1,24 @@
-/* .header{
-    display: flex;
-    flex-direction: column;
-} */
 @media (min-width: 600px) and (max-width: 768px) {
     body {
         background-color: whitesmoke;
-        /* margin: 0% 8%; */
+        margin: 10%;
         border-radius: 7px;  
-        font-family: Arial, Helvetica, sans-serif; 
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: aliceblue; 
     }
   }
-
-/* .img{
-    width: 5%;
-} */
-.images{
-    width:70%;
+body p {
+    font-size: 150%;
+}
+.headings{
+    margin-left: 42%;
+}
+.images img{
+    width: 200%;
     border-radius: 7px;
 }
-.header{
-    
+.images p{
+    font-size: 110%;
 }
 .nav-bar{
     display: flex;
@@ -31,32 +30,69 @@
     display:inline-block;
     list-style-type: none;
     padding: 8px 10px;
+    font-size: 130%;
 }
 .nav-bar-2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #FFD600;
+    padding: 20px;
 }
 .nav-bar-2 button{
     border-radius: 7px;
 
 }
+.nav-bar-2 input{
+    border-radius: 7px;
+    padding: 0px 12px;
+}
 .my-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: -12%;
+    /* margin-top: -12%; */
 }
 .brickhouse-image{
-    width: 58%;
+    width: 65%;
     margin-top: 20%;
 }
-.slide-line{
-    float: right;
-    margin-left: 40%;
-    margin-top: -44%;
-    /* margin-bottom: 18%; */
+.select button{
+    padding: 10px;
+    margin-left: 10px ;
+    /* background-color: #FFD600; */
+    
+}
+.input-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.input-buttons button{
+    border-color: #FFD600;
+    background-color: white;
+}
+.selectb{
+    background-color: #FFD600;
+    width: 73%;
+    color: white;
+    border-color: #FFD600;
+    border-radius: 9px;
+    
+}
+.select input{
+    padding: 10px 20px;
+    border-radius: 9px;
+}
+.select{
+    margin-right: 15%;
+    margin-top: 4%;
+    padding: 30px;
+    border: solid #252525;
+    border-radius: 20px;
+}
+#slide{
+    background-color: #FFD600;
 }
 .buttons{
     display: flex;
@@ -70,28 +106,60 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
+
 }
 .age-buttons button{
     /* margin-left:  3%; */
-    padding: 12px;
+    /* padding: 12px; */
 }
 .my-button{
     margin-left: 10%;
+    /* background-color: #FFD600; */
 }
 .series-images{
-    width: 12%;
+    /* width: 12%; */
+    
+}
+.series-div img{
+    width: 30%
+}
+.ideas{
+    width: 50%;
+}
+.starwars{
+    margin-bottom: -7%;
 }
 .select-series input{
     padding: 20px;
+    margin-bottom: -50%;
 }
 .select-series button{
     background-color: #FFD600;
     padding: 12px;
-    /* margin-right: 10%;
-    margin-top: -20%; */
+    /* margin-right: 10%; */
+    margin-top: -44%;
     border-radius: 9px;
-    float: left;
+    /* float: left;  */
     margin-bottom: 30%;
+    /* float: right; */
+    margin-right: 0%;
+}
+.select button{
+    border-radius: 9px;
+}
+.more-series-button button{
+    margin-left: 35%;
+    padding: 20px;
+    background-color: #FFD600;
+    border-radius: 9px;
+    color: white;
+    width: 30%;
+    border-color: #FFD600;
+
+}
+.recently-viewed img{
+    width: 80%;
 }
 .age{
     margin-top: -28%;
@@ -109,6 +177,9 @@
 .recently-viewed img{
     width: 32%;
 }
+.reefhome{
+    padding: 85px 0px;
+}
 .discounts{
     display: flex;
     flex-direction: row;
@@ -119,8 +190,24 @@
     border-radius: 7px;
 }
 .discount-offer{
-    padding: 0px 12px;
+    padding: 12px;
     background-color: #FFD600;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.input{
+    margin-top: 3%;
+}
+.input input{
+    border-radius: 7px;
+    padding: 12px;
+}
+.input button{
+    border-radius: 7px;
+    padding: 12px;
+    background-color: #E70062;
+    margin-left: -24%;
 }
 .new img{
     width: 25%;
