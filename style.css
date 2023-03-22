@@ -1,4 +1,4 @@
-@media (min-width: 600px) and (max-width: 768px) {
+/* @media (min-width: 600px) and (max-width: 768px) {
     body {
         background-color: whitesmoke;
         margin: 10%;
@@ -6,7 +6,7 @@
         font-family: Arial, Helvetica, sans-serif;
         background-color: aliceblue; 
     }
-  }
+  } */
 body p {
     font-size: 150%;
 }
@@ -228,4 +228,8 @@ body p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+@media screen and (max-width:1200px) {
+    
+  
 }
