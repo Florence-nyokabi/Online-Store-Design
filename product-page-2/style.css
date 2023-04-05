@@ -59,7 +59,25 @@ i {
     margin-left: 5%;
 }
 .orders img {
-    width: 30%
+    width: 50%
+}
+/* .order1 p{
+    font-style: 800%;
+} */
+.order button{
+    color: white;
+    background-color: #FFD600;
+    border-radius: 7px;
+    border-color: #FFD600;
+}
+#yelobox{
+    color:#ffd600
+}
+#grey{
+    color: gainsboro;
+    }
+.orders i{
+    font-size: 160%;
 }
 #word1{
     display: flex;
@@ -67,12 +85,16 @@ i {
     margin-top: 0%;
     margin-left: 10%; 
 }
+#word1 p{
+    font-weight: 600;
+    font-size: 120%;
+}
 #word2{
     margin-left: 160%;
     margin-top: 3%;
 }
 #word21{
-    margin-left: 125%;
+    margin-left: 160%;
     margin-top: 3%;
 }
 .order1{
@@ -84,7 +106,7 @@ i {
     margin-left: 25%;
     margin-top: 5%;
     border-radius: 12px;
-    border: solid 2px gray;
+    border: solid thin gainsboro;
     background-color: white;
     font-weight: bolder;
     border-width: 100%;
@@ -102,22 +124,21 @@ i {
     justify-content: space-between;
     margin: 3% 10%;
 }
-#btn2{
-    padding: 0px, 100px;
-    margin-left: 45%;
-    color: white;
-    background-color: orange;
-    border: solid orange 25px;
+#button1{
+    padding: 9px;
+    width: 270px;
+    border:solid thin rgb(31, 250, 250);
     border-radius: 5px;
+    color: aqua;
+    background-color: white;
 }
-#btn2b{
-    padding: 0px, 150px;
-    margin-left: 40%;
+#button2{
+    padding: 9px;
+    width: 270px;
+    margin-top: 15px;
     color: white;
-    background-color: orange;
-    border: solid orange 5px;
-    width: 300px;
-    height: 40px;
+    background-color: #FFD600;
+    border: transparent;
     border-radius: 5px;
 }
 .Last{
