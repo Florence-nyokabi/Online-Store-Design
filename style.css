@@ -1,4 +1,4 @@
-/* @media (min-width: 600px) and (max-width: 768px) {
+@media (min-width: 600px) and (max-width: 768px) {
     body {
         background-color: whitesmoke;
         margin: 10%;
@@ -6,7 +6,9 @@
         font-family: Arial, Helvetica, sans-serif;
         background-color: aliceblue; 
     }
-  } */
+}
+
+
 body p {
     font-size: 150%;
 }
@@ -233,3 +235,37 @@ body p {
     
   
 }
+
+
+
+@media only screen and(max-width:700px) {
+    body{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    }
+    }
+/* Mobile Responsive CSS */
+    @media only screen and (max-width: 767px) {
+        body{
+           
+        }
+        .discounts{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 20%;
+            grid-template-columns: repeat(2, 2fr);
+        }
+        .discounts img{
+            width: 75%;
+            border-radius: 7px;
+        }
+        .mini-discount2{
+            padding: 12px, 12px;
+        }
+
+    }
+
+ /* Tablet Responsive CSS */
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+        }
