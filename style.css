@@ -1,4 +1,4 @@
-@media (min-width: 600px) and (max-width: 768px) {
+/* @media (min-width: 600px) and (max-width: 768px) {
     body {
         background-color: whitesmoke;
         margin: 10%;
@@ -6,7 +6,7 @@
         font-family: Arial, Helvetica, sans-serif;
         background-color: aliceblue; 
     }
-}
+} */
 
 
 body p {
@@ -231,41 +231,115 @@ body p {
     flex-direction: row;
     justify-content: space-between;
 }
-@media screen and (max-width:1200px) {
-    
-  
-}
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more — Extra large screens, TV */
 
 
-
-@media only screen and(max-width:700px) {
+@media (min-width: 320px) and (max-width: 480px) {
     body{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    }
-    }
-/* Mobile Responsive CSS */
-    @media only screen and (max-width: 767px) {
-        body{
-           
-        }
-        .discounts{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            width: 20%;
-            grid-template-columns: repeat(2, 2fr);
-        }
-        .discounts img{
-            width: 75%;
-            border-radius: 7px;
-        }
-        .mini-discount2{
-            padding: 12px, 12px;
-        }
 
     }
-
- /* Tablet Responsive CSS */
-        @media only screen and (min-width: 768px) and (max-width: 991px) {
-        }
+    .nav-bar-2{
+        width: 170%;
+    }
+    .nav-bar-2 button{
+      height: 40%;
+/*       margin-top: 8%; */
+      border-radius: 4px;
+        
+    }
+    .nav-bar-2 input{
+        height: 50%;
+/*         margin-top: 8%; */
+        width: 20%;
+        border-radius: 4px;
+    }
+    .nav-bar-2 p{
+        font-size: small;
+        margin-bottom: 8%;
+    }
+    .nav-bar nav li a {
+        font-size: 1%;
+        overflow: hidden;
+    }
+    .nav-bar{
+        overflow: hidden;
+        position: relative;
+    }
+    .nav-bar nav{
+        display: none;
+    }
+    .images{
+        width: 190%;
+        margin-left: 30%;
+    }
+    .select{
+        width: 150%;
+        margin-top: 110%;
+        margin-left: -40%
+    }
+    .headings{
+        font-size:small;
+        margin-top: -25%;
+    }
+    .recently-viewed{
+        display: flex;
+        flex-direction: column;  
+    }
+    .new{
+        margin-top: 30%;
+        margin-left: 30%
+    }
+    .series-div{
+        margin-left: 16%;
+        width: 120%;
+    }
+    .more-series-button{
+        margin-left: 25%;
+        width: 100%;
+    }
+    .discounts{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20%;
+        margin-left: 40%;
+    }
+    .discount-footer{
+        width: 180%;
+    }
+    .discount-footer p {
+        font-size: small;
+        margin-top: 10%
+    }
+    .discount-offer input{
+        width: 80%;
+    }
+    .footer-div{
+        width: 170%;   
+    }
+    .footer-inside p{
+        font-size: small;
+    }
+    .footer-inside h2{
+        font-size: small;
+    }
+    .footer-inside h4{
+        font-size: small;
+    }
+    .footer-2 p{
+        font-size: small;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+    
+}
